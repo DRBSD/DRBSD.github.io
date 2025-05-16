@@ -360,7 +360,6 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    backdrop-filter: blur(10px) saturate(70%);
 }
 
 header .intro-text {
@@ -383,6 +382,7 @@ header .intro-text .intro-heading {
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
+    backdrop-filter: blur(10px) saturate(70%);
 }
 
 @media(min-width:768px) {    
