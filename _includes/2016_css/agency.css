@@ -360,11 +360,13 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    backdrop-filter: blur(10px) saturate(70%);
 }
 
 header .intro-text {
     padding-top: 20vh;
     padding-bottom: 50px;
+    backdrop-filter: blur(10px) saturate(70%);
 }
 
 header .intro-text .intro-lead-in {
@@ -373,6 +375,7 @@ header .intro-text .intro-lead-in {
     font-size: 20px;
     #font-style: italic;
     line-height: 20px;
+    backdrop-filter: blur(10px) saturate(70%);
 }
 
 header .intro-text .intro-heading {
@@ -389,6 +392,7 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        backdrop-filter: blur(10px) saturate(70%);
     }
 
     header .intro-text .intro-lead-in {
@@ -397,6 +401,7 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
+        backdrop-filter: blur(10px) saturate(70%);
     }
 
     header .intro-text .intro-heading {
