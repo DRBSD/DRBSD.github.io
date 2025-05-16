@@ -353,20 +353,18 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/css/2016_style/img/header-bg-25.jpg');
+    background-image: url('{{ site.baseurl }}/css/2016_style/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    backdrop-filter: blur(10px) saturate(70%);
 }
 
 header .intro-text {
     padding-top: 20vh;
     padding-bottom: 50px;
-    backdrop-filter: blur(10px) saturate(70%);
 }
 
 header .intro-text .intro-lead-in {
@@ -375,7 +373,6 @@ header .intro-text .intro-lead-in {
     font-size: 20px;
     #font-style: italic;
     line-height: 20px;
-    backdrop-filter: blur(10px) saturate(70%);
 }
 
 header .intro-text .intro-heading {
@@ -385,14 +382,12 @@ header .intro-text .intro-heading {
     font-size: 40px;
     font-weight: 700;
     line-height: 40px;
-    backdrop-filter: blur(10px) saturate(70%);
 }
 
 @media(min-width:768px) {    
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
-        backdrop-filter: blur(10px) saturate(70%);
     }
 
     header .intro-text .intro-lead-in {
@@ -401,7 +396,6 @@ header .intro-text .intro-heading {
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
-        backdrop-filter: blur(10px) saturate(70%);
     }
 
     header .intro-text .intro-heading {
@@ -411,7 +405,6 @@ header .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-        backdrop-filter: blur(10px) saturate(70%);
     }
 }
 
