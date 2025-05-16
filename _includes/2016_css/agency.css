@@ -360,6 +360,7 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    backdrop-filter: blur(10px) saturate(70%);
 }
 
 header .intro-text {
